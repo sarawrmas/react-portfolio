@@ -28,7 +28,7 @@ function Footer() {
         <img
           src={icons[0].src}
           alt={icons[0].description}
-          className="footer-icon"
+          className="icon"
         >
         </img>
       </a>{" "}
@@ -36,7 +36,7 @@ function Footer() {
         <img
           src={icons[1].src}
           alt={icons[1].description}
-          className="footer-icon"
+          className="icon"
         >
         </img>
       </a>{" "}
@@ -44,7 +44,7 @@ function Footer() {
         <img
           src={icons[2].src}
           alt={icons[2].description}
-          className="footer-icon"
+          className="icon"
         >
         </img>
       </a>
