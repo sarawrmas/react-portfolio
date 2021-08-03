@@ -24,7 +24,7 @@ function Footer() {
 
   return (
     <div className="footer-div">
-      <a href="https://github.com/sarawrmas" target="_blank">
+      <a href="https://github.com/sarawrmas" target="_blank" rel="noreferrer">
         <img
           src={icons[0].src}
           alt={icons[0].description}
@@ -32,7 +32,7 @@ function Footer() {
         >
         </img>
       </a>{" "}
-      <a href="https://www.linkedin.com/in/sara-adamski/" target="_blank">
+      <a href="https://www.linkedin.com/in/sara-adamski/" target="_blank" rel="noreferrer">
         <img
           src={icons[1].src}
           alt={icons[1].description}
@@ -40,7 +40,7 @@ function Footer() {
         >
         </img>
       </a>{" "}
-      <a href="https://stackexchange.com/users/20751541/sarawrmas" target="_blank">
+      <a href="https://stackexchange.com/users/20751541/sarawrmas" target="_blank" rel="noreferrer">
         <img
           src={icons[2].src}
           alt={icons[2].description}

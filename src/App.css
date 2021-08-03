@@ -15,7 +15,7 @@
 
 body {
   background-color: var(--dark-blue);
-  color: var(--yellow)
+  /* color: var(--green); */
 }
 
 li {
@@ -26,18 +26,17 @@ a {
   text-decoration: none;
 }
 
-.page-div {
-  margin: 50px;
-}
-
 h2 {
   font-size: 50px;
+  margin: 50px;
   text-align: center;
+  color: var(--light-blue);
 }
 
 .page-body {
-  font-size: 30px;
+  font-size: 25px;
   margin: 30px;
+  color: var(--green);
 }
 
 .header-div {
@@ -47,7 +46,7 @@ h2 {
     var(--yellow)
   );
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
   padding: 20px;
 }
@@ -74,18 +73,29 @@ h2 {
 }
 
 .footer-div {
-  position: absolute;
-  bottom: 0px;
-  margin: 30px;
+  position: relative;
+  text-align: center;
 }
 
 .footer-icon {
   height: 30px;
   width: 30px;
   padding: 30px;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .footer-icon:hover {
   opacity: 1;
+}
+
+.about-portrait {
+  height: 300px;
+  width: 300px;
+}
+
+.about-body {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
 }
