@@ -1,4 +1,40 @@
-.App {
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-div {
+  background-color: violet;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:active {
+  color: black;
+}
+
+.nav-list {
+  display: inline;
+  flex-wrap: wrap;
+  font-size: 30px;
+
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +71,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
