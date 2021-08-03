@@ -3,12 +3,30 @@
   padding: 0px;
 }
 
+body {
+  background-color: turquoise;
+}
+
 li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
+}
+
+.page-div {
+  margin: 50px;
+}
+
+.page-header {
+  font-size: 50px;
+  text-align: center;
+}
+
+.page-body {
+  font-size: 30px;
+  margin: 30px;
 }
 
 .nav-div {
