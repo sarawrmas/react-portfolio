@@ -59,6 +59,11 @@ function Contact() {
         )}
         <button type="submit" className="submit-contact contact-el">Submit</button>
       </form>
+      <div className="my-info-div">
+        <h3 className="my-info-h3">Get in Touch:</h3>
+        <p className="my-info-p">Sara.M.Adamski@gmail.com</p>
+        <p className="my-info-p">715-302-4913</p>
+      </div>
     </div>
   );
 }

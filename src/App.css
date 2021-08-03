@@ -15,7 +15,6 @@
 
 body {
   background-color: var(--dark-blue);
-  /* color: var(--green); */
 }
 
 li {
@@ -95,7 +94,6 @@ h2 {
   bottom: 0;
   width: 100%;
   text-align: center;
-  /* border-top: 1px solid var(--light-blue); */
   margin-top: 20px;
 }
 
@@ -156,4 +154,18 @@ textarea {
   width: 17px;
   height: 17px;
   margin-right: 10px;
+}
+
+.my-info-h3 {
+  font-size: 35px;
+  color: var(--green);
+  text-align: center;
+  margin-top: 100px;
+}
+
+.my-info-p {
+  font-size: 25px;
+  color: var(--green);
+  text-align: center;
+  padding: 10px;
 }
