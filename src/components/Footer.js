@@ -28,7 +28,7 @@ function Footer() {
   return (
     <div className="footer-div">
       {links.map(link => (
-        <a href={link.url} target="_blank" rel="noreferrer">
+        <a href={link.url} target="_blank" rel="noreferrer" key={link.name}>
           <img
             src={link.src}
             alt={link.description}
