@@ -59,19 +59,19 @@ function Project() {
       {projects.map(project => (
         <div className="single-project" key={project.title}>
           <h3>{project.title}</h3>
-          <img src={project.image} className="photo" alt={project.alt}></img>
+          <img src={project.image} className="photo project-photo" alt={project.alt}></img>
           <br />
           <a href={project.deployed} target="_blank" rel="noreferrer">
             <img
               src={linkIcon}
-              className="icon"
+              className="icon project-icon"
               alt="Paperclip icon that links to project's deployed site"
             />
           </a>
           <a href={project.github} target="_blank" rel="noreferrer">
             <img
               src={gitIcon}
-              className="icon"
+              className="icon project-icon"
               alt="Icon from github.com that links to project's github page"
             />
           </a>

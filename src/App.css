@@ -75,6 +75,8 @@ h2 {
 .footer-div {
   position: relative;
   text-align: center;
+  border-top: 1px solid var(--light-blue);
+  margin-top: 20px;
 }
 
 .icon {
@@ -84,7 +86,7 @@ h2 {
   opacity: 0.6;
 }
 
-.footer-icon:hover {
+.icon:hover {
   opacity: 1;
 }
 
