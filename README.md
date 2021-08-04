@@ -34,8 +34,8 @@ THEN I receive a notification that this field is required -->
 <!-- WHEN I enter text into the email address field  
 THEN I receive a notification if I have entered an invalid email address -->
 
-WHEN I am presented with the Resume section  
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+<!-- WHEN I am presented with the Resume section  
+THEN I see a link to a downloadable resume and a list of the developer’s proficiencies -->
 
 <!-- WHEN I view the footer  
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) -->
@@ -49,7 +49,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 <!-- * Footer component that appears on multiple pages -->
 
-*consider adding your email address and phone number on the Contact page until you add back-end functionality*
+<!-- *consider adding your email address and phone number on the Contact page until you add back-end functionality* -->
 
 <!-- ## Project Requirements
 * Image of the deployed application (either a GIF or a screenshot)
@@ -58,10 +58,10 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 * A link to the corresponding GitHub repository -->
 
 ## Design
-* Site should look polished
+<!-- * Site should look polished -->
 * Use mobile-first design.
-* Choose a color palette using palette generator such as Coolors
-* Font size is large enough to read
-* Colors don't cause eye strain.
+<!-- * Choose a color palette using palette generator such as Coolors -->
+<!-- * Font size is large enough to read -->
+<!-- * Colors don't cause eye strain. -->
 
 *Consider using animations and React component libraries.*

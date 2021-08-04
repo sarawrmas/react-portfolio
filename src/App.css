@@ -1,9 +1,8 @@
 :root {
-  --yellow: #FFD166;
-  --green: #06D6A0;
-  --light-blue: #118AB2;
-  --dark-blue: #073B4C;
-  --plum: #736372;
+  --dark: #141B41;
+  --white: #ffffff;
+  --medium: #6F9CEB;
+  --light: #98B9F2;
 }
 
 * {
@@ -14,7 +13,7 @@
 }
 
 body {
-  background-color: var(--dark-blue);
+  background-color: var(--light);
 }
 
 a {
@@ -25,12 +24,12 @@ h2 {
   font-size: 50px;
   margin: 50px;
   text-align: center;
-  color: var(--green);
+  color: var(--white);
 }
 
 .page-body {
   font-size: 25px;
-  color: var(--yellow);
+  color: var(--dark);
 }
 
 .icon {
@@ -53,8 +52,8 @@ h2 {
 .header-div {
   background: linear-gradient(
     to bottom right,
-    var(--light-blue),
-    var(--yellow)
+    var(--medium),
+    var(--dark)
   );
   height: 100%;
   width: 100%;
@@ -64,15 +63,15 @@ h2 {
 
 .header-h1 {
   float: left;
-  color: var(--yellow)
+  color: var(--dark)
 }
 
 .nav-link {
-  color: var(--light-blue);
+  color: var(--medium);
 }
 
 .nav-link-active {
-  color: var(--green);
+  color: var(--white);
 }
 
 .nav-li {
@@ -136,8 +135,8 @@ textarea {
 .submit-contact {
   width: 150px;
   font-size: 30px;
-  background-color: var(--yellow);
-  color: var(--dark-blue);
+  background-color: var(--dark);
+  color: var(--light);
 }
 
 .error-text {
@@ -154,14 +153,14 @@ textarea {
 
 .my-info-h3 {
   font-size: 35px;
-  color: var(--green);
+  color: var(--white);
   text-align: center;
   margin-top: 100px;
 }
 
 .my-info-p {
   font-size: 25px;
-  color: var(--green);
+  color: var(--white);
   text-align: center;
   padding: 10px;
 }
@@ -182,8 +181,8 @@ textarea {
   text-align: center;
   margin-top: 40px;
   font-size: 45px;
-  color: var(--light-blue);
-  border-top: 1px solid var(--light-blue);
+  color: var(--medium);
+  border-top: 1px solid var(--medium);
 }
 
 .skill-list {
@@ -191,7 +190,6 @@ textarea {
   justify-content: space-around;
   width: 100%;
   flex-wrap: wrap;
-  /* padding: 30px; */
 }
 
 .skill-header {
