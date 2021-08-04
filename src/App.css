@@ -17,10 +17,6 @@ body {
   background-color: var(--dark-blue);
 }
 
-li {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
 }
@@ -29,12 +25,11 @@ h2 {
   font-size: 50px;
   margin: 50px;
   text-align: center;
-  color: var(--light-blue);
+  color: var(--green);
 }
 
 .page-body {
   font-size: 25px;
-  margin: 30px;
   color: var(--yellow);
 }
 
@@ -62,7 +57,7 @@ h2 {
     var(--yellow)
   );
   height: 100%;
-  /* width: 100%; */
+  width: 100%;
   text-align: center;
   padding: 20px;
 }
@@ -77,8 +72,7 @@ h2 {
 }
 
 .nav-link-active {
-  color: var(--dark-blue);
-  background-color: var(--yellow);
+  color: var(--green);
 }
 
 .nav-li {
@@ -86,6 +80,7 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   font-size: 30px;
+  list-style: none;
 }
 
 /* f o o t e r  s t y l e */
@@ -115,6 +110,7 @@ h2 {
 
 .single-project {
   text-align: center;
+  margin: 50px;
 }
 
 /* c o n t a c t  s t y l e */
@@ -168,4 +164,38 @@ textarea {
   color: var(--green);
   text-align: center;
   padding: 10px;
+}
+
+/* r e s u m e  s t y l e */
+/* .download-icon {
+  height: 40px;
+  width: 40px;
+  opacity: 0.5;
+  margin-left: 30px;
+} */
+
+.resume-link {
+  color: var(--light-blue);
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  /* text-align: center;
+  width: 100%; */
+}
+
+/* .resume-link:hover, .download-icon:hover {
+  font-style: italic;
+  opacity: 1;
+} */
+
+.skill-list {
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.skill-header {
+  font-size: 45px;
 }
