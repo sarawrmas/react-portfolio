@@ -180,8 +180,8 @@ textarea {
   text-align: center;
   margin-top: 40px;
   font-size: 45px;
-  color: var(--medium);
-  border-top: 1px solid var(--medium);
+  color: var(--dark);
+  border-top: 1px solid var(--dark);
 }
 
 .skill-list {
@@ -192,5 +192,5 @@ textarea {
 }
 
 .skill-header {
-  font-size: 45px;
+  font-size: 40px;
 }

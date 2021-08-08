@@ -7,10 +7,11 @@ function About() {
       <div className="about-body">
         <img src={require("../../assets/images/face.jpg").default} alt="A photograph of Sara" className="photo"/>
         <p className="page-body">
-          ∞ Jack of all trades with endless curiosity<br />
-          ∞ Loves to solve complex problems<br />
-          ∞ Resourceful, quick to learn, and adaptable<br />
+          ∞ Full Stack Developer<br />
           ∞ Future UT Austin Coding Boot Camp Graduate<br />
+          ∞ Jack of all trades with endless curiosity<br />
+          ∞ Love to solve complex problems<br />
+          ∞ Resourceful, quick to learn, and adaptable<br />
         </p>
       </div>
     </div>
