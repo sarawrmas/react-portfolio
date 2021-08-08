@@ -58,28 +58,27 @@ h2 {
   height: 100%;
   width: 100%;
   text-align: center;
-  padding: 20px;
 }
 
 .header-h1 {
-  float: left;
-  color: var(--dark)
+  color: var(--dark);
+  font-size: 50px;
 }
 
 .nav-link {
   color: var(--medium);
+  font-size: 30px;
 }
 
 .nav-link-active {
   color: var(--white);
+  font-size: 30px;
 }
 
 .nav-li {
   display: inline;
-  flex-direction: row;
-  flex-wrap: wrap;
-  font-size: 30px;
   list-style: none;
+  margin: 10px;
 }
 
 /* f o o t e r  s t y l e */
