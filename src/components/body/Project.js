@@ -3,13 +3,20 @@ import ClonelloImg from '../../assets/images/trello.png';
 import HealthImg from '../../assets/images/exercise.jpg';
 import BlogImg from '../../assets/images/blog.png';
 import NoteImg from '../../assets/images/note.png';
-import TeamImg from '../../assets/images/team.png';
+import GameImg from '../../assets/images/gyg.png';
 import WeatherImg from '../../assets/images/weather.jpg';
 import linkIcon from '../../assets/icons/link.png';
 import gitIcon from '../../assets/icons/github.png';
 
 function Project() {
   const projects = [
+    {
+      title: 'Glad You Game',
+      image: GameImg,
+      alt: "Hand holding a game controller",
+      deployed: "https://young-sierra-90065.herokuapp.com/",
+      github: "https://github.com/MBadi089/Glad-You-Game"
+    },
     {
       title: 'Clonello',
       image: ClonelloImg,
@@ -37,13 +44,6 @@ function Project() {
       alt: "Sticky note and paperclip",
       deployed: "https://frozen-harbor-03363.herokuapp.com/",
       github: "https://github.com/sarawrmas/note-taker"
-    },
-    {
-      title: 'Team Profile Generator',
-      image: TeamImg,
-      alt: "Team of people stacking hands",
-      deployed: "https://github.com/sarawrmas/Team-Profile-Generator",
-      github: "https://github.com/sarawrmas/Team-Profile-Generator"
     },
     {
       title: 'Weather Dashboard',
