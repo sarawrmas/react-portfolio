@@ -8,7 +8,7 @@ function About() {
         <img src={require("../../assets/images/face.jpg").default} alt="A photograph of Sara" className="photo"/>
         <p className="page-body">
           ∞ Full Stack Developer<br />
-          ∞ Future UT Austin Coding Boot Camp Graduate<br />
+          ∞ UT Austin Coding Boot Camp Graduate<br />
           ∞ Jack of all trades with endless curiosity<br />
           ∞ Love to solve complex problems<br />
           ∞ Resourceful, quick to learn, and adaptable<br />
