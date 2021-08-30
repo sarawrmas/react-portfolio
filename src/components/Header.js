@@ -1,9 +1,10 @@
 import React, {useState} from 'react';
-import Navigation from './Navigation.js';
-import About from './body/About.js';
-import Portfolio from './body/Portfolio.js';
-import Contact from './body/Contact.js';
-import Resume from './body/Resume.js';
+import Navigation from './Navigation';
+import About from '../pages/About.js';
+import Projects from '../pages/Projects.js';
+import Contact from '../pages/Contact.js';
+import Resume from '../pages/Resume.js';
+import Blog from '../pages/Blog';
 
 function Header() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -11,12 +12,14 @@ function Header() {
   function renderPage() {
     switch(currentPage) {
       default: return <About />
-      case "Portfolio":
-        return <Portfolio/>;
+      case "Projects":
+        return <Projects/>;
       case "Contact":
         return <Contact/>;
       case "Resume":
         return <Resume/>;
+      case "Blog":
+        return <Blog/>
     }
   }
 

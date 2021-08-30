@@ -1,5 +1,5 @@
 import React from 'react';
-import Download from "../../assets/icons/download.png";
+import Download from "../assets/icons/download.png";
 
 function Resume() {
   return (

@@ -5,7 +5,7 @@ function About() {
     <div className="page-div">
       <h2>About Me</h2>
       <div className="about-body">
-        <img src={require("../../assets/images/face.jpg").default} alt="A photograph of Sara" className="photo"/>
+        <img src={require("../assets/images/face.jpg").default} alt="A photograph of the applicant" className="photo"/>
         <p className="page-body">
           ∞ Full Stack Developer<br />
           ∞ UT Austin Coding Boot Camp Graduate<br />

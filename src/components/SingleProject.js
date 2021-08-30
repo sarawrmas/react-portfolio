@@ -1,14 +1,14 @@
 import React from 'react';
-import ClonelloImg from '../../assets/images/trello.png';
-import HealthImg from '../../assets/images/exercise.jpg';
-import BlogImg from '../../assets/images/blog.png';
-import NoteImg from '../../assets/images/note.png';
-import GameImg from '../../assets/images/gyg.png';
-import WeatherImg from '../../assets/images/weather.jpg';
-import linkIcon from '../../assets/icons/link.png';
-import gitIcon from '../../assets/icons/github.png';
+import ClonelloImg from '../assets/images/trello.png';
+import HealthImg from '../assets/images/exercise.jpg';
+import BlogImg from '../assets/images/blog.png';
+import NoteImg from '../assets/images/note.png';
+import GameImg from '../assets/images/gyg.png';
+import WeatherImg from '../assets/images/weather.jpg';
+import linkIcon from '../assets/icons/link.png';
+import gitIcon from '../assets/icons/github.png';
 
-function Project() {
+function SingleProject() {
   const projects = [
     {
       title: 'Glad You Game',
@@ -81,4 +81,4 @@ function Project() {
   )
 }
 
-export default Project;
+export default SingleProject;

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 function Navigation(props) {
-  const pages = ['About', 'Portfolio', 'Contact', 'Resume']
+  const pages = ['About', 'Projects', 'Blog', 'Resume', 'Contact']
 
   const {
     currentPage,

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import { validateEmail, capitalizeFirstLetter } from "../../utils/helpers";
-import Warning from "../../assets/icons/warning.png";
+import { validateEmail, capitalizeFirstLetter } from "../utils/helpers";
+import Warning from "../assets/icons/warning.png";
 
 function Contact() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });

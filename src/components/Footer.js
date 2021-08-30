@@ -1,7 +1,8 @@
 import React from 'react';
 import gitIcon from '../assets/icons/github.png';
 import linkedinIcon from '../assets/icons/linkedin.png';
-import stackIcon from '../assets/icons/stack-overflow.png'
+import wordpressIcon from '../assets/icons/wordpress.png';
+// import stackIcon from '../assets/icons/stack-overflow.png'
 
 function Footer() {
   const links = [
@@ -18,11 +19,17 @@ function Footer() {
       url: "https://www.linkedin.com/in/sara-adamski/"
     },
     {
-      name: 'stack-overflow',
-      description: 'Icon from stackoverflow.com that links to external site.',
-      src: stackIcon,
-      url: "https://stackexchange.com/users/20751541/sarawrmas"
-    }
+      name: 'wordpress',
+      description: 'Icon from wordpress.com that links to external site.',
+      src: wordpressIcon,
+      url: "https://hikingcodingandmayhem.wordpress.com"
+    },
+    // {
+    //   name: 'stack-overflow',
+    //   description: 'Icon from stackoverflow.com that links to external site.',
+    //   src: stackIcon,
+    //   url: "https://stackexchange.com/users/20751541/sarawrmas"
+    // }
   ]
 
   return (
