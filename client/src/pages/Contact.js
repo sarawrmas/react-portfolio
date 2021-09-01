@@ -6,6 +6,7 @@ function Contact() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
   const { name, email, message } = formState;
   const [errorMessage, setErrorMessage] = useState('');
+  const URL = 'http://localhost:3000' || 'https://sara-adamski.herokuapp.com'
 
   function handleChange(e) {
     if (e.target.name === 'email') {
@@ -32,7 +33,7 @@ function Contact() {
   async function handleSubmit(e) {
     e.preventDefault();
 
-    const response = await fetch("/send", {
+    const response = await fetch(`${URL}/send`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
