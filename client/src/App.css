@@ -194,3 +194,33 @@ textarea {
 .skill-header {
   font-size: 40px;
 }
+
+/* b l o g  s t y l e */
+.blog-card {
+  margin: auto;
+  width: 50%;
+  height: 30%;
+  background-color: var(--white);
+
+}
+
+.blog-header {
+  background-color: var(--dark);
+  color: var(--white);
+  text-align: center;
+}
+
+.blog-text {
+  color: var(--dark);
+  /* margin: 20px; */
+  padding: 20px;
+}
+
+.blog-link:hover {
+  text-decoration: underline overline;
+}
+
+.blog-p {
+  font-size: 20px;
+  font-style: italic;
+}
