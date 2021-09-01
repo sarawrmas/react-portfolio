@@ -7,7 +7,6 @@ require('dotenv').config();
 const PORT = process.env.PORT || 3001;
 const app = express();
 
-// middleware
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(cors());
@@ -40,10 +39,6 @@ transporter.verify((error) => {
     console.log("Ready to send");
   }
 });
-
-// app.get('/api', (req, res) => {
-//   req.body({ message: "Hello!" })
-// })
 
 app.post('/send', (req, res) => {
   console.log(req.body)

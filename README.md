@@ -8,13 +8,15 @@
 * [Credits](#credits)
 
 ## Deployed
-Access the website [here](https://sarawrmas.github.io/react-portfolio)
-
+Access the website [here](https://sara-adamski.herokuapp.com/)
 ## Technologies
 This application was built using:
 * React
 * CSS
 * JavaScript
+* Node.js
+* Express.js
+* Nodemailer
 
 ## Description
 This is a portfolio of my work, built using React to render four different components onto one shared page. Using the navigation links, the viewer is able to toggle between each section to learn more.
