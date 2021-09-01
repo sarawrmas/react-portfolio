@@ -29,8 +29,27 @@ function Contact() {
     }
   }
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault();
+
+    const response = await fetch("/send", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        name: formState.name,
+        email: formState.email,
+        message: formState.message
+      })
+    })
+
+    const resData = await response.json();
+    if (resData.status === "success") {
+      alert("Message Sent!")
+    } else if (resData.status === "fail") {
+      alert("Message failed to send");
+    }
   }
 
   return (
@@ -58,11 +77,6 @@ function Contact() {
         )}
         <button type="submit" className="submit-contact contact-el">Submit</button>
       </form>
-      <div className="my-info-div">
-        <h3 className="my-info-h3">Get in Touch:</h3>
-        <p className="my-info-p">Sara.M.Adamski@gmail.com</p>
-        <p className="my-info-p">715-302-4913</p>
-      </div>
     </div>
   );
 }
