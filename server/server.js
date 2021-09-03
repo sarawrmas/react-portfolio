@@ -43,7 +43,7 @@ transporter.verify((error) => {
 app.post('/send', (req, res) => {
   let mailOptions = {
     from: `${req.body.email}`,
-    to: process.env.EMAIL,
+    to: "sara.m.adamski@gmail.com",
     subject: "Portfolio response",
     html: `
     <p>You have a new contact request.</p>
