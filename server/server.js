@@ -1,5 +1,6 @@
 const express = require('express')
 const nodemailer = require('nodemailer');
+const sgTransport = require('nodemailer-sendgrid-transport');
 const path = require('path');
 const cors = require('cors');
 require('dotenv').config();
@@ -19,18 +20,22 @@ app.get('*', (req, res) => {
   res.sendFile(path.resolve(__dirname, '../client/build/index.html'))
 });
 
-let transporter = nodemailer.createTransport({
-  service: "gmail",
+let transporter = nodemailer.createTransport(sgTransport({
+  // service: "gmail",
+  // service: 'SendGrid',
   auth: {
-    type: "OAuth2",
-    user: process.env.EMAIL,
-    pass: process.env.PASSWORD,
-    clientId: process.env.CLIENTID,
-    clientSecret: process.env.CLIENT_SECRET,
-    refreshToken: process.env.REFRESH_TOKEN,
-    accessToken: process.env.ACCESS_TOKEN
+    // type: "OAuth2",
+    // user: process.env.EMAIL,
+    // pass: process.env.PASSWORD,
+    // clientId: process.env.CLIENTID,
+    // clientSecret: process.env.CLIENT_SECRET,
+    // refreshToken: process.env.REFRESH_TOKEN,
+    // accessToken: process.env.ACCESS_TOKEN,
+    // user: process.env.USERNAME,
+    // pass: process.env.API_PASS
+    api_key: process.env.API_KEY,
   }
-});
+}));
 
 transporter.verify((error) => {
   if (error) {
@@ -42,11 +47,11 @@ transporter.verify((error) => {
 
 app.post('/send', (req, res) => {
   let mailOptions = {
-    from: `${req.body.email}`,
+    from: "sara.m.adamski@gmail.com",
     to: "sara.m.adamski@gmail.com",
     subject: "Portfolio response",
     html: `
-    <p>You have a new contact request.</p>
+    <p>You have a new contact request!</p>
     <h3>Contact Details</h3>
     <ul>
       <li>Name: ${req.body.name}</li>
@@ -63,7 +68,7 @@ app.post('/send', (req, res) => {
         status: "fail"
       });
     } else {
-      console.log("data: " + data)
+      console.log("data: " + JSON.stringify(data))
       res.json({
         status: "success"
       });
