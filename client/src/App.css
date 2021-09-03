@@ -58,6 +58,9 @@ h2 {
   height: 100%;
   width: 100%;
   text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .header-h1 {
@@ -109,6 +112,32 @@ h2 {
 .single-project {
   text-align: center;
   margin: 50px;
+}
+
+.project-div {
+  width: 300px;
+  height: 300px;
+}
+
+.project-text {
+  visibility: hidden;
+  color: black;
+}
+
+.project-div:hover {
+  opacity: 0.8;
+}
+
+.project-div:hover .project-text {
+  visibility: visible;
+}
+
+.project-btn {
+  background-color: var(--dark);
+  color: var(--light);
+  margin: 10px;
+  width: 100px;
+  margin-bottom: 0px;
 }
 
 /* c o n t a c t  s t y l e */

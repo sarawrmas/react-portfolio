@@ -32,7 +32,7 @@ function Contact() {
   async function handleSubmit(e) {
     e.preventDefault();
 
-    await fetch('/send', {
+    await fetch(`/send`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -51,6 +51,9 @@ function Contact() {
       } else if (resData.status === "fail") {
         alert("Message failed to send");
       }
+    })
+    .catch(err => {
+      console.log("Error: " + err)
     })
   }
 

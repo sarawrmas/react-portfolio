@@ -41,10 +41,9 @@ transporter.verify((error) => {
 });
 
 app.post('/send', (req, res) => {
-  console.log(req.body)
   let mailOptions = {
     from: `${req.body.email}`,
-    to: 'sara.m.adamski@gmail.com',
+    to: process.env.EMAIL,
     subject: "Portfolio response",
     html: `
     <p>You have a new contact request.</p>
@@ -59,11 +58,12 @@ app.post('/send', (req, res) => {
 
   transporter.sendMail(mailOptions, function(err, data) {
     if (err) {
-      console.log(err)
+      console.log("Error: " + err)
       res.json({
         status: "fail"
       });
     } else {
+      console.log("data: " + data)
       res.json({
         status: "success"
       });
