@@ -6,7 +6,7 @@ function About() {
       <h2>About Me</h2>
       <div className="about-body">
         <img src={require("../assets/images/face.jpg").default} alt="A photograph of the applicant" className="photo"/>
-        <p className="page-body about-p">
+        <div className="page-body about-p">
           <h3>Full Stack Software Developer</h3>
           with a proclivity for digging deep to understand how systems work.
           Always seeking out a challenge and chasing the next goal post,
@@ -17,7 +17,7 @@ function About() {
           <br/>
           <br/>
           Want to see more? Use the navigation and footer links to get to know me better!
-        </p>
+        </div>
       </div>
     </div>
   );
