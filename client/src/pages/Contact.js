@@ -47,7 +47,7 @@ function Contact() {
     .then(async (res) => {
       const resData = await res;
       if (resData.status === "success") {
-        alert("Message Sent!")
+        alert("Message Sent!");
       } else if (resData.status === "fail") {
         alert("Message failed to send");
       }

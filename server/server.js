@@ -21,18 +21,7 @@ app.get('*', (req, res) => {
 });
 
 let transporter = nodemailer.createTransport(sgTransport({
-  // service: "gmail",
-  // service: 'SendGrid',
   auth: {
-    // type: "OAuth2",
-    // user: process.env.EMAIL,
-    // pass: process.env.PASSWORD,
-    // clientId: process.env.CLIENTID,
-    // clientSecret: process.env.CLIENT_SECRET,
-    // refreshToken: process.env.REFRESH_TOKEN,
-    // accessToken: process.env.ACCESS_TOKEN,
-    // user: process.env.USERNAME,
-    // pass: process.env.API_PASS
     api_key: process.env.API_KEY,
   }
 }));

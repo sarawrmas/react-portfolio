@@ -8,7 +8,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: fantasy;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: lighter;
 }
 
@@ -41,11 +41,6 @@ h2 {
 
 .icon:hover {
   opacity: 1;
-}
-
-.photo {
-  height: 300px;
-  width: 300px;
 }
 
 /* h e a d e r  s t y l e */
@@ -101,6 +96,15 @@ h2 {
   flex-wrap: wrap;
 }
 
+.about-p {
+  width: 60%;
+}
+
+.photo {
+  height: 400px;
+  width: 400px;
+}
+
 /* p o r t f o l i o  s t y l e */
 .all-projects {
   display: inline-flex;
@@ -125,11 +129,16 @@ h2 {
 }
 
 .project-div:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .project-div:hover .project-text {
   visibility: visible;
+}
+
+.project-tech {
+  color: crimson;
+  font-size: 20px;
 }
 
 .project-btn {
@@ -138,6 +147,7 @@ h2 {
   margin: 10px;
   width: 100px;
   margin-bottom: 0px;
+  font-size: 20px;
 }
 
 /* c o n t a c t  s t y l e */
@@ -241,7 +251,6 @@ textarea {
 
 .blog-text {
   color: var(--dark);
-  /* margin: 20px; */
   padding: 20px;
 }
 
