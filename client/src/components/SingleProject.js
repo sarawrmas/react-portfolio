@@ -44,23 +44,23 @@ function SingleProject() {
     <div className="all-projects">
       {projects.map(project => (
         <div className="single-project" key={project.title}>
-        <h3>{project.title}</h3>
-        <div
-          className="project-div"
-          style={{
-            backgroundImage: `url(${project.image})`,
-            backgroundSize: '100%',
-            border: '3px solid var(--dark)'
-          }}
-        >
-          <p className="project-text">{project.description}</p>
-          <p className="project-text project-tech">{project.technologies}</p>
-          <a href={project.deployed} target="_blank" rel="noreferrer">
-            <button className="project-text project-btn">Deployed</button>
-          </a>
-          <a href={project.github} target="_blank" rel="noreferrer">
-          <button className="project-text project-btn">GitHub</button>
-          </a>
+          <h3>{project.title}</h3>
+          <div
+            className="project-div"
+            style={{
+              backgroundImage: `url(${project.image})`
+            }}
+          >
+            <p className="project-text project-description">{project.description}</p>
+            <p className="project-text project-tech">{project.technologies}</p>
+            <div className="button-inline">
+              <a href={project.deployed} target="_blank" rel="noreferrer">
+                <button className="project-text project-btn">Deployed</button>
+              </a>
+              <a href={project.github} target="_blank" rel="noreferrer">
+              <button className="project-text project-btn">GitHub</button>
+              </a>
+            </div>
           </div>
         </div>
       ))}
