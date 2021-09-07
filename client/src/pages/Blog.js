@@ -15,7 +15,7 @@ function Blog() {
     {
       title: "WOOP: Wish, Outcome, Obstable, Plan",
       image: PlanImg,
-      alt: "Arms spread wide overlooking a vista",
+      alt: "A hand stacking blocks that say 'plan'",
       preview: "Using this technique is a helpful way to visualize any challenge. By laying out what you hope to achieve, the best possible outcome, what obstacles you may encounter, and then making a plan...",
       link: "https://hikingcodingandmayhem.wordpress.com/2021/09/05/woop-wish-outcome-obstacle-plan/"
     },
@@ -36,8 +36,7 @@ function Blog() {
       <div className="blog-card" key={post.title}>
         <img src={post.image} alt={post.alt}/>
         <div class="blog-content">
-          <h3 className="blog-header">{post.title}</h3>
-          {/* <img src={post.image} className="blog-img" alt={post.alt}/> */}
+          <h3 className="blog-header blog-text">{post.title}</h3>
           <blockquote className="blog-text blog-p">"{post.preview}"</blockquote>
           <a href={post.link} target="_blank" rel="noreferrer" className="blog-text blog-link">Continue reading <span className="arrow">&#8594;</span></a>
         </div>
