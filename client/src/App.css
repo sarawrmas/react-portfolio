@@ -1,8 +1,16 @@
-:root {
+/* :root {
   --dark: #141B41;
   --white: #ffffff;
   --medium: #6F9CEB;
   --light: #98B9F2;
+} */
+
+:root {
+  --dark: #37323E;
+  --medium: #8D8994;
+  --light: #BFBDC1;
+  --highlight: firebrick;
+  --white: #ffffff;
 }
 
 * {
@@ -24,7 +32,7 @@ h2 {
   font-size: 50px;
   margin: 50px;
   text-align: center;
-  color: var(--white);
+  color: var(--highlight);
 }
 
 .page-body {
@@ -59,7 +67,7 @@ h2 {
 }
 
 .header-h1 {
-  color: var(--dark);
+  color: var(--white);
   font-size: 50px;
 }
 
@@ -69,7 +77,7 @@ h2 {
 }
 
 .nav-link-active {
-  color: var(--white);
+  color: var(--highlight);
   font-size: 30px;
 }
 
@@ -137,13 +145,13 @@ h2 {
 }
 
 .project-tech {
-  color: crimson;
+  color: var(--highlight);
   font-size: 20px;
 }
 
 .project-btn {
   background-color: var(--dark);
-  color: var(--light);
+  color: var(--white);
   margin: 10px;
   width: 100px;
   margin-bottom: 0px;
@@ -191,14 +199,14 @@ textarea {
 
 .my-info-h3 {
   font-size: 35px;
-  color: var(--white);
+  color: var(--highlight);
   text-align: center;
   margin-top: 100px;
 }
 
 .my-info-p {
   font-size: 25px;
-  color: var(--white);
+  color: var(--highlight);
   text-align: center;
   padding: 10px;
 }
@@ -243,7 +251,7 @@ textarea {
 .blog-card {
   margin: 20px;
   background: var(--dark);
-  color: white;
+  color: var(--white);
   width: 400px;
   display: flex;
   flex-direction: column;
@@ -277,7 +285,7 @@ textarea {
 
 .blog-link {
   font-size: 18px;
-  color: white;
+  color: var(--white);
 
 }
 
