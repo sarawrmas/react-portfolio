@@ -82,6 +82,13 @@ function Contact() {
         )}
         <button type="submit" className="submit-contact contact-el">Submit</button>
       </form>
+      <div className="my-info">
+        <h3>Prefer another method?</h3>
+        <p>
+          <span>Email:</span> Sara.M.Adamski@gmail.com<br/>
+          <span>Phone:</span> 715-302-4913<br/>
+        </p>
+      </div>
     </div>
   );
 }

@@ -208,18 +208,25 @@ textarea {
   margin-right: 10px;
 }
 
-.my-info-h3 {
-  font-size: 35px;
+.my-info {
   color: var(--highlight);
-  text-align: center;
-  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
 }
 
-.my-info-p {
-  font-size: 25px;
-  color: var(--highlight);
-  text-align: center;
-  padding: 10px;
+.my-info h3 {
+  font-size: 40px;
+}
+
+.my-info p {
+  font-size: 26.5px;
+  text-align: left;
+}
+
+.my-info p span {
+  font-weight: bold;
 }
 
 /* r e s u m e  s t y l e */
