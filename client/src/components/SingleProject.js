@@ -9,31 +9,31 @@ function SingleProject() {
     {
       title: 'Clonello',
       image: ClonelloImg,
-      description: "Create projects, assign tasks, and update task status to keep everyone in your project up to date.",
+      description: "Create projects and assign tasks in a group to keep everyone up to date.",
       technologies: "JavaScript ⤩ Handlebars ⤩ Express ⤩ MySQL",
       deployed: "https://powerful-falls-76508.herokuapp.com/",
       github: "https://github.com/akman47/Clonello"
     },
     {
-      title: 'Nothing But Tech',
+      title: 'Just Tech News',
       image: BlogImg,
-      description: "Your resource to read and discuss news on all things tech.",
+      description: "Your resource to read, discuss, and post news on all things tech.",
       technologies: "JavaScript ⤩ Handlebars ⤩ Express ⤩ MySQL",
-      deployed: "https://peaceful-brushlands-07328.herokuapp.com/",
-      github: "https://github.com/sarawrmas/nothing-but-tech"
+      deployed: "https://pure-coast-40651.herokuapp.com/",
+      github: "https://github.com/sarawrmas/just-tech-news"
     },
     {
-      title: 'Note Taker',
+      title: 'Task Master Pro',
       image: NoteImg,
-      description: "Take notes, view descriptions, and edit and delete notes as needed.",
-      technologies: "JavaScript ⤩ HTML ⤩ CSS ⤩ Express",
-      deployed: "https://frozen-harbor-03363.herokuapp.com/",
-      github: "https://github.com/sarawrmas/note-taker"
+      description: "Draggable note tracker with ability to create, change status, edit, and delete tasks.",
+      technologies: "HTML ⤩ Bootstrap ⤩ JavaScript ⤩ jQuery",
+      deployed: "https://sarawrmas.github.io/taskmaster-pro/",
+      github: "https://github.com/sarawrmas/taskmaster-pro"
     },
     {
       title: 'Weather Dashboard',
       image: WeatherImg,
-      description: "Search a city to find weather patterns for today and a prediction of the next 5 days.",
+      description: "Search any city for weather updates and save previous searches for efficiency.",
       technologies: "JavaScript ⤩ HTML ⤩ CSS",
       deployed: "https://sarawrmas.github.io/weather-dashboard/",
       github: "https://github.com/sarawrmas/weather-dashboard"
