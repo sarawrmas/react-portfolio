@@ -7,7 +7,7 @@ function Resume() {
     <h2 className="resume-header">
       Resume
       <a
-        href="https://docs.google.com/document/d/19gzHWo7oFiqeqI-IxzX3EigqxJZ9sQK-hps0Lp8DCL4/export?format=pdf"
+        href="https://docs.google.com/document/d/1toEofj-Tf4faSc5lA-8Iwuimii_dVJgxIIoGDJL6xiY/export?format=pdf"
         download
         className="resume-link"
       >
@@ -20,24 +20,23 @@ function Resume() {
         
         <h4 className="skill-header">Front End</h4>
         <ul>
+          <li>React</li>
+          <li>JavaScript</li>
           <li>HTML</li>
           <li>CSS</li>
           <li>Bootstrap</li>
-          <li>JavaScript</li>
           <li>jQuery</li>
           <li>Object Oriented Programming (OOP)</li>
-          <li>React</li>
         </ul>
       </div>
       <div className="back-list">
         <h4 className="skill-header">Back End</h4>
         <ul>
-          <li>APIs</li>
-          <li>Node</li>
-          <li>Express</li>
-          <li>MySQL/Sequelize</li>
-          <li>MongoDB/Mongoose</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
           <li>REST</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
           <li>GraphQL</li>
         </ul>
       </div>

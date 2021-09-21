@@ -1,16 +1,16 @@
 import React from 'react';
 import ArmsWide from '../assets/images/arms-wide.jpg';
-import ClimbImg from '../assets/images/climb.jpg';
 import PlanImg from '../assets/images/plan.jpg';
+import BinaryImg from '../assets/images/binary.jpg';
 
 function Blog() {
   const blogPosts = [
     {
-      title: "Values",
-      image: ClimbImg,
-      alt: "A mountain climber",
-      preview: "By identifying our values and connecting them to educational experiences, we can increase our level of persistence and enhance our likelihood to see things through.",
-      link: "https://hikingcodingandmayhem.wordpress.com/2021/09/04/values/"
+      title: "Why Coding?",
+      image: BinaryImg,
+      alt: "A screen of 1's and 0's",
+      preview: "I was meant to be a software engineer. I understand it enough to do it well, but am challenged enough by it to stay interested. It plays to all of my strengths; my curiosity, my thirst for challenge...",
+      link: "https://hikingcodingandmayhem.wordpress.com/2021/09/12/why-coding/"
     },
     {
       title: "WOOP: Wish, Outcome, Obstable, Plan",

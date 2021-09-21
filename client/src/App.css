@@ -28,6 +28,10 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 h2 {
   font-size: 50px;
   margin: 50px;
