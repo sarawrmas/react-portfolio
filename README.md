@@ -2,15 +2,19 @@
 
 ## Table of Contents
 * [Deployed](#deployed)
-* [Technologies](#technologies)
 * [Description](#description)
+* [Technologies](#technologies)
+* [Usage](#usage)
 * [Questions](#questions)
 * [Credits](#credits)
 
 ## Deployed
-Access the website [here](https://sara-adamski.herokuapp.com/)
+Visit the application at https://sara-adamski.herokuapp.com/
+
+## Description
+This is a portfolio of my work, built using React to render five different components onto one shared page.
+
 ## Technologies
-This application was built using:
 * React
 * CSS
 * JavaScript
@@ -18,20 +22,20 @@ This application was built using:
 * Express.js
 * Nodemailer
 
-## Description
-This is a portfolio of my work, built using React to render five different components onto one shared page. Using the navigation links, the viewer is able to toggle between each section to learn more.
+## Usage
+Using the navigation links, the viewer is able to toggle between each section to learn more about me and my work.
 
 The default section, 'About Me,' contains a photo and a short summary of who I am as a developer.
 
-You can also view a list of a few of the projects that I have created. For each one, the title and a picture are displayed, followed by two different links to view the deployed application as well as the project's GitHub repository.
+In the 'Projects' section, view a list of a few of the projects that I have created. Hover over the picture and a description will appear, along with the technologies used to build the application, a link to the deployed application, and a link to the GitHub repository.
 
-The blog section is a little something extra to display a few of the posts I have created. I believe these posts help give a little bit more context about who I am.
+The 'Blog' section is an extra add-on that lists a few of my posts on my blog, "Hiking, Coding, and Mayhem." You will see a picture for each post, the title, a short excerpt from the entry, and a link that will take you to the full post on Wordpress.
 
-In the resume section, I have provided a link to download my full resume, as well as a list of my proficiencies sorted by front and back end.
+In the 'Resume' section, I have provided a link to download my full resume using the PDF icon at the top, as well as a list of my proficiencies sorted by front and back end.
 
-In the contact section, I have provided a form that can be filled out with a name, email, and a message that will be sent to me. Reach out if you have any questions!
+In the 'Contact' section, there is a fully functional contact form that can be filled out with your name, email, and a message that will be sent to me. I have also provided my email address and phone number at the bottom in case you want to get in touch directly via one of these methods.
 
-In addition to these four sections, the header and footer are available on every page, containing links to navigate between pages at the top, and links to my GitHub, LinkedIn, and Wordpress on the bottom.
+In addition to these five sections, you can use the icons on the bottom from every page that link to my GitHub, LinkedIn, and Wordpress.
 
 ## Questions
 Have questions about this project?  
