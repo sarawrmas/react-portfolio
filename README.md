@@ -5,6 +5,7 @@
 * [Description](#description)
 * [Technologies](#technologies)
 * [Usage](#usage)
+* [Preview](#preview)
 * [Questions](#questions)
 * [Credits](#credits)
 
@@ -36,6 +37,9 @@ In the 'Resume' section, I have provided a link to download my full resume using
 In the 'Contact' section, there is a fully functional contact form that can be filled out with your name, email, and a message that will be sent to me. I have also provided my email address and phone number at the bottom in case you want to get in touch directly via one of these methods.
 
 In addition to these five sections, you can use the icons on the bottom from every page that link to my GitHub, LinkedIn, and Wordpress.
+
+## Preview
+![screenshot](client/public/images/screenshot.png)
 
 ## Questions
 Have questions about this project?  
