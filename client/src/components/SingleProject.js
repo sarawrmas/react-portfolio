@@ -2,10 +2,18 @@ import React from 'react';
 import ClonelloImg from '../assets/images/trello.png';
 import BlogImg from '../assets/images/blog.png';
 import NoteImg from '../assets/images/note.png';
-import WeatherImg from '../assets/images/weather.jpg';
+import HeartImg from '../assets/images/heart.jpg';
 
 function SingleProject() {
   const projects = [
+    {
+      title: 'Health Companion',
+      image: HeartImg,
+      description: "Keep track of your health with diet and exercise search tools.",
+      technologies: "JavaScript ⤩ React ⤩ MongoDB ⤩ GraphQL",
+      deployed: "https://health-companion.herokuapp.com/",
+      github: "https://github.com/sarawrmas/health-companion"
+    },
     {
       title: 'Clonello',
       image: ClonelloImg,
@@ -29,15 +37,7 @@ function SingleProject() {
       technologies: "HTML ⤩ Bootstrap ⤩ JavaScript ⤩ jQuery",
       deployed: "https://sarawrmas.github.io/taskmaster-pro/",
       github: "https://github.com/sarawrmas/taskmaster-pro"
-    },
-    {
-      title: 'Weather Dashboard',
-      image: WeatherImg,
-      description: "Search any city for weather updates and save previous searches for efficiency.",
-      technologies: "JavaScript ⤩ HTML ⤩ CSS",
-      deployed: "https://sarawrmas.github.io/weather-dashboard/",
-      github: "https://github.com/sarawrmas/weather-dashboard"
-    },
+    }
   ]
 
   return(
