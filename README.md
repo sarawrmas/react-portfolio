@@ -22,6 +22,8 @@ This is a portfolio of my work, built using React to render five different compo
 * Node.js
 * Express.js
 * Nodemailer
+* GreenSock
+* Scroll Magic
 
 ## Usage
 Using the navigation links, the viewer is able to toggle between each section to learn more about me and my work.

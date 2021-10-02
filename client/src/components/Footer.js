@@ -1,7 +1,12 @@
 import React from 'react';
-import gitIcon from '../assets/icons/github.png';
-import linkedinIcon from '../assets/icons/linkedin.png';
-import wordpressIcon from '../assets/icons/wordpress.png';
+// import gitIcon from '../assets/icons/github.png';
+import gitIcon from '../assets/tech/github.png';
+// import linkedinIcon from '../assets/icons/linkedin.png';
+import linkedinIcon from '../assets/linkedin.png';
+// import wordpressIcon from '../assets/icons/wordpress.png';
+import wordpressIcon from '../assets/wordpress.png';
+// import paperIcon from '../assets/icons/download.png';
+import resumeIcon from '../assets/resume.png';
 
 function Footer() {
   const links = [
@@ -37,6 +42,12 @@ function Footer() {
           </img>
         </a>
       ))}
+      <a
+        href="https://docs.google.com/document/d/1toEofj-Tf4faSc5lA-8Iwuimii_dVJgxIIoGDJL6xiY/export?format=pdf"
+        download
+      >
+        <img className="icon" src={resumeIcon} alt="Button to download resume pdf"></img>
+      </a>
     </div>
   )
 }

@@ -1,27 +1,32 @@
 /* :root {
-  --dark: #141B41;
-  --white: #ffffff;
-  --medium: #6F9CEB;
-  --light: #98B9F2;
-} */
-
-:root {
   --dark: #37323E;
   --medium: #8D8994;
   --light: #BFBDC1;
   --highlight: firebrick;
   --white: #ffffff;
-}
+} */
+
 
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: lighter;
 }
 
 body {
-  background-color: var(--light);
+  color: white;
+  background-image: url(https://media.giphy.com/media/2H9r8AKyYyecz9yyRq/giphy.gif);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-div {
+  height: 80%;
+  padding: 30px;
+  margin-top: 300px;
 }
 
 a {
@@ -36,85 +41,89 @@ h2 {
   font-size: 50px;
   margin: 50px;
   text-align: center;
-  color: var(--highlight);
 }
 
 .page-body {
   font-size: 25px;
-  color: var(--dark);
 }
 
 .icon {
   height: 30px;
   width: 30px;
   padding: 30px;
-  opacity: 0.6;
+  /* opacity: 0.6; */
 }
 
 .icon:hover {
-  opacity: 1;
+  /* opacity: 1; */
+  opacity: 0.8;
+  transition: ease-in-out 0.2s;
 }
 
 /* h e a d e r  s t y l e */
 .header-div {
-  background: linear-gradient(
+  /* background: linear-gradient(
     to bottom right,
-    var(--medium),
-    var(--dark)
-  );
-  height: 100%;
-  width: 100%;
-  text-align: center;
+    purple,
+    green
+  ); */
+  /* background-color: rgb(255,255,255,0.5); */
+  background-color: black;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 9999;
+  height: 100%;
 }
 
-.header-h1 {
-  color: var(--white);
-  font-size: 50px;
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#nav-brand a {
+  color: white;
+}
+
+.nav-group {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav-link {
-  color: var(--medium);
+  color: white;
   font-size: 30px;
 }
 
 .nav-link-active {
-  color: var(--highlight);
+  color: chartreuse;
   font-size: 30px;
 }
 
 .nav-li {
-  display: inline;
+  display: inline-flex;
   list-style: none;
   margin: 10px;
-}
-
-/* f o o t e r  s t y l e */
-.footer-div {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  margin-top: 20px;
+  justify-content: flex-end;
 }
 
 /* a b o u t  s t y l e */
+.content {
+  text-align: center;
+}
 .about-body {
-  display: inline-flex;
+  display: flex;
   justify-content: space-around;
   width: 100%;
   flex-wrap: wrap;
 }
 
-.about-p {
-  width: 60%;
-}
-
 .photo {
   height: 400px;
   width: 400px;
+  border-radius: 50%;
+  border: 5px solid white;
 }
 
 /* p o r t f o l i o  s t y l e */
@@ -133,7 +142,7 @@ h2 {
 .project-div {
   width: 300px;
   height: 300px;
-  border: 3px solid var(--dark);
+  border: 3px solid white;
   background-size: 100%;
   display: flex;
   flex-direction: column;
@@ -154,13 +163,13 @@ h2 {
 }
 
 .project-tech {
-  color: var(--highlight);
+  background-color: white;
   font-size: 20px;
 }
 
 .project-btn {
-  background-color: var(--dark);
-  color: var(--white);
+  background-color: darkblue;
+  color: white;
   margin: 10px;
   width: 100px;
   margin-bottom: 0px;
@@ -185,19 +194,20 @@ h2 {
 input {
   width: 300px;
   height: 30px;
+  font-size: 20px;
 }
 
 textarea {
   width: 300px;
   height: 150px;
-  resize: none;
+  font-size: 20px;
 }
 
 .submit-contact {
   width: 150px;
   font-size: 30px;
-  background-color: var(--dark);
-  color: var(--light);
+  background-color: chartreuse;
+  color: white;
 }
 
 .error-text {
@@ -212,16 +222,18 @@ textarea {
   margin-right: 10px;
 }
 
-.my-info {
-  color: var(--highlight);
+/* .my-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 50px;
-}
+} */
 
-.my-info h3 {
-  font-size: 40px;
+#email {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  width: 100%;
 }
 
 .my-info p {
@@ -234,7 +246,7 @@ textarea {
 }
 
 /* r e s u m e  s t y l e */
-.download-icon {
+/* .download-icon {
   height: 45px;
   width: 45px;
   opacity: 0.6;
@@ -243,15 +255,7 @@ textarea {
 
 .download-icon:hover {
   opacity: 1;
-}
-
-.prof-header {
-  text-align: center;
-  margin-top: 40px;
-  font-size: 45px;
-  color: var(--dark);
-  border-top: 1px solid var(--dark);
-}
+} */
 
 .skill-list {
   display: inline-flex;
@@ -264,6 +268,11 @@ textarea {
   font-size: 40px;
 }
 
+.tech {
+  height: 50px;
+  margin: 1vw
+}
+
 /* b l o g  s t y l e */
 
 .blog-text {
@@ -272,8 +281,8 @@ textarea {
 
 .blog-card {
   margin: 20px;
-  background: var(--dark);
-  color: var(--white);
+  background: white;
+  color: black;
   width: 400px;
   display: flex;
   flex-direction: column;
@@ -307,8 +316,7 @@ textarea {
 
 .blog-link {
   font-size: 18px;
-  color: var(--white);
-
+  color: black;
 }
 
 .arrow {

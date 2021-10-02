@@ -58,7 +58,7 @@ function Contact() {
   }
 
   return (
-    <div className="page-div">
+    <div className="page-div" id="contact">
       <h2>Contact Me</h2>
       <form className="contact-form page-body" onSubmit={handleSubmit}>
         <div>
@@ -83,11 +83,8 @@ function Contact() {
         <button type="submit" className="submit-contact contact-el">Submit</button>
       </form>
       <div className="my-info">
-        <h3>Prefer another method?</h3>
-        <p>
-          <span>Email:</span> Sara.M.Adamski@gmail.com<br/>
-          <span>Phone:</span> 715-302-4913<br/>
-        </p>
+        {/* <h3>Or email me directly:</h3> */}
+        <a id="email" href="mailto:sara.m.adamski@gmail.com">Sara.M.Adamski@gmail.com</a>
       </div>
     </div>
   );

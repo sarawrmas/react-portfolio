@@ -3,7 +3,7 @@ import SingleProject from '../components/SingleProject';
 
 function Projects() {
   return (
-  <div className="page-div">
+  <div className="page-div" id="projects">
     <h2>Projects</h2>
     <div className="page-body">
       <SingleProject/>

@@ -16,6 +16,7 @@
     "concurrently": "^5.3.0"
   },
   "dependencies": {
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "scrollreveal": "^4.0.9"
   }
 }

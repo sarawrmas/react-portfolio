@@ -29,13 +29,13 @@ function Blog() {
   ]
 
   return (
-  <div className="page-div">
+  <div className="page-div" id="blog">
     <h2>Blog</h2>
     <div className="page-body all-blog">
       {blogPosts.map(post =>
       <div className="blog-card" key={post.title}>
         <img src={post.image} alt={post.alt}/>
-        <div class="blog-content">
+        <div className="blog-content">
           <h3 className="blog-header blog-text">{post.title}</h3>
           <blockquote className="blog-text blog-p">"{post.preview}"</blockquote>
           <a href={post.link} target="_blank" rel="noreferrer" className="blog-text blog-link">Continue reading <span className="arrow">&#8594;</span></a>
