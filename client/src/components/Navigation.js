@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Footer from './Footer';
+// import Footer from './Footer';
 
 function Navigation() {
   const pages = ['About', 'Projects', 'Blog', 'Contact']
@@ -18,7 +18,7 @@ function Navigation() {
     <div className="header-div">
       <ul className="nav-list">
         <li className="nav-link nav-li" id="nav-brand"><a href="/">Sara Adamski</a></li>
-        <li classname="nav-li"><Footer /></li>
+        {/* <li classname="nav-li"><Socials /></li> */}
         <ul className="nav-group">
         {pages.map(page => (
           <li className="nav-li" key={page.toLowerCase()}>

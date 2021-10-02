@@ -7,11 +7,13 @@ import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 // import Resume from './pages/Resume';
 // import Footer from './components/Footer.js';
+import Socials from './components/Socials';
 
 function App() {
   return (
     <div>
       <Navigation />
+      <Socials />
       <About />
       <Projects />
       {/* <Resume /> */}

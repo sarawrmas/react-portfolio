@@ -49,24 +49,25 @@ function About() {
           <br/>
           <br/>
           Want to see more? Use the navigation and footer links to get to know me better! */}
+                {/* <div className="skill-list"> */}
+          <img src={require("../assets/tech/html.png").default} className="tech" alt="Icon for html"/>
+          <img src={require("../assets/tech/css.png").default} className="tech" alt="Icon for css"/>
+          <img src={require("../assets/tech/bootstrap.png").default} className="tech" alt="Icon for bootstrap"/>
+          <img src={require("../assets/tech/js.png").default} className="tech" alt="Icon for javascript"/>
+          <img src={require("../assets/tech/jquery.png").default} className="tech" alt="Icon for jquery"/>
+          <img src={require("../assets/tech/node.png").default} className="tech" alt="Icon for nodejs"/>
+          <img src={require("../assets/tech/express.png").default} className="tech" alt="Icon for expressjs"/>
+          <img src={require("../assets/tech/react.png").default} className="tech" alt="Icon for react"/>
+          <img src={require("../assets/tech/mongodb.png").default} className="tech" alt="Icon for mongodb"/>
+          <img src={require("../assets/tech/graphql.png").default} className="tech" alt="Icon for graphql"/>
+          <img src={require("../assets/tech/github.png").default} className="tech" alt="Icon for github"/>
+          <img src={require("../assets/tech/jest.png").default} className="tech" alt="Icon for jest"/>
+          <img src={require("../assets/tech/mysql.png").default} className="tech" alt="Icon for mysql"/>
+          <img src={require("../assets/tech/pwa.png").default} className="tech" alt="Icon for pwa"/>
+          <img src={require("../assets/tech/rest.png").default} className="tech" alt="Icon for restful api"/>
+        {/* </div> */}
         </div>
-        <div className="skill-list">
-          <img src={require("../assets/tech/html.png").default} className="tech"/>
-          <img src={require("../assets/tech/css.png").default} className="tech"/>
-          <img src={require("../assets/tech/bootstrap.png").default} className="tech"/>
-          <img src={require("../assets/tech/js.png").default} className="tech"/>
-          <img src={require("../assets/tech/jquery.png").default} className="tech"/>
-          <img src={require("../assets/tech/node.png").default} className="tech"/>
-          <img src={require("../assets/tech/express.png").default} className="tech"/>
-          <img src={require("../assets/tech/react.png").default} className="tech"/>
-          <img src={require("../assets/tech/mongodb.png").default} className="tech"/>
-          <img src={require("../assets/tech/graphql.png").default} className="tech"/>
-          <img src={require("../assets/tech/github.png").default} className="tech"/>
-          <img src={require("../assets/tech/jest.png").default} className="tech"/>
-          <img src={require("../assets/tech/mysql.png").default} className="tech"/>
-          <img src={require("../assets/tech/pwa.png").default} className="tech"/>
-          <img src={require("../assets/tech/rest.png").default} className="tech"/>
-        </div>
+
       </div>
     </div>
   );
